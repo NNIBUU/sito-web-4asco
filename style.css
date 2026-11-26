@@ -1,12 +1,12 @@
-body {background-color: light yellow;
+body {background-color: light blue;
 	font-family: Arial, sans-serif;
-	color: light yellow;}
+	color: light blue;}
  
-h1 {color: black;
+h1 {color: white;
 	text-align: center;}
  
-nav {background-color: black;
+nav {background-color: white;
 	padding: 15px;}
  
-nav a {color: white;
+nav a {color: blue;
 	margin-right: 20px;}
