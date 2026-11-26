@@ -1,8 +1,10 @@
-body {background-color: blue;
+body {background-color: light blue;
 	font-family: Arial, sans-serif;
-	color: blue;}
+	color: light blue;}
  
 h1 {color: white;
+	text-align: center;}
+h2 {color: white;
 	text-align: center;}
  
 nav {background-color: white;
