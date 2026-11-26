@@ -31,57 +31,26 @@ body {
         }
 
         main {
-            max-width: 900px;
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            gap: 40px;
+            max-width: 600px;
             text-align: left;
             line-height: 1.5;
             font-size: 1.05em;
-            margin-bottom: 50px;
         }
 
-        .contenuto-testo {
-            flex: 1;
-        }
-
-        .contenuto-testo p {
-            margin-top: 0;
+        main p {
             margin-bottom: 20px;
         }
 
-        .contenuto-testo ul {
+        main ul {
             padding-left: 25px;
-            margin-bottom: 0;
+            margin-bottom: 50px;
         }
 
-        .contenuto-testo li {
+        main li {
             margin-bottom: 6px;
-        }
-
-        .contenuto-immagine {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-        }
-
-        .contenuto-immagine img {
-            max-width: 100%;
-            height: auto;
-            border: 3px solid #FFFFFF;
-            border-radius: 8px;
         }
 
         footer {
             font-size: 1em;
             margin-top: 20px;
-        }
-
-        @media (max-width: 768px) {
-            main {
-                flex-direction: column;
-            }
         }
