@@ -1,18 +1,36 @@
-body {background-color: light blue;
-	font-family: Arial, sans-serif;
-	color: light blue;}
- 
-h1 {color: white;
-	text-align: center;}
+body {background-color: #87CEEB;
+            color: #FFFFFF;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;}
 
-h2 {color: white;
-	text-align: center;}
+        header h1 {font-size: 2.2em;
+            margin-bottom: 20px;}
 
- p {color: white;
-	text-align: center;}
+        nav {margin-bottom: 40px;}
 
-nav {background-color: white;
-	padding: 15px;}
- 
-nav a {color: blue;
-	margin-right: 20px;}
+        nav a {color: #FFFFFF;
+            text-decoration: none;
+            margin: 0 12px;
+            font-size: 1.1em;}
+
+        nav a:hover {text-decoration: underline;}
+
+        main {max-width: 600px;
+            text-align: left;
+            line-height: 1.5;
+            font-size: 1.05em;}
+
+        main p {margin-bottom: 20px;}
+
+        main ul {padding-left: 25px;
+            margin-bottom: 50px;}
+
+        main li {margin-bottom: 6px}
+
+        footer {font-size: 1em;
+            margin-top: 20px;}
